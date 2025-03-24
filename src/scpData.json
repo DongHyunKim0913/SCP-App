@@ -1,0 +1,37 @@
+[
+    {
+        "subject": "SCP-002",
+        "class": "Euclid",
+        "description": "SCP-002, also known as “The Living Room,” is an anomalous object resembling a red, spherical, metal container with a hatch. Inside SCP-002, there is a furnished living room, complete with furniture, decor, and various objects. The room is fully functional and inhabited by an unknown number of entities that appear to be human-like but are not immediately visible. The furniture and objects in SCP-002 have been observed to be alive and exhibit aggressive behavior towards anyone who enters.",
+        "containment_procedures": "SCP-002 must be kept in a secure containment chamber at Site-XX. Access to SCP-002 is restricted to Level 4 personnel and requires special authorization. The hatch of SCP-002 must remain closed at all times, and any breaches or anomalies must be reported immediately. Regular inspections and maintenance are required to ensure that SCP-002 remains in a stable condition and does not pose a threat to containment. Personnel entering SCP-002 must wear protective gear and be accompanied by security teams to manage any potential threats from within.",
+        "image": "/Images/SCP-002.jpg"
+    },
+    {
+        "subject": "SCP-003",
+        "class": "Euclid",
+        "description": "SCP-003 is a complex, anomalous entity that consists of two distinct components: SCP-003-1 and SCP-003-2. SCP-003-1 is a humanoid figure composed of organic material, resembling a female human, with anomalous properties related to its metabolic processes. SCP-003-2 is a technological device that appears to be a computer or control panel with unknown origins. The interaction between SCP-003-1 and SCP-003-2 causes significant fluctuations in SCP-003's behavior and effects. SCP-003 has the ability to alter and influence electronic systems and biological organisms within its proximity.",
+        "containment_procedures": "SCP-003 is to be contained in a specialized chamber designed to separate SCP-003-1 and SCP-003-2. SCP-003-1 is to be kept in a secure, life-supporting containment unit, while SCP-003-2 must be housed in a separate, electromagnetically shielded containment box. Personnel must use remote methods to interact with SCP-003 and its components to minimize exposure to its anomalous effects. Access to SCP-003 requires Level 4 clearance, and any changes in SCP-003’s behavior must be reported and documented immediately. Regular monitoring and maintenance of containment measures are necessary to ensure the stability and safety of SCP-003.",
+        "image": "/Images/SCP-003.jpg"
+    },
+    {
+        "subject": "SCP-004",
+        "class": "Keter",
+        "description": "SCP-004 is a series of metal objects known collectively as “The 12 Keys.” These keys are capable of opening or closing anomalous gateways that lead to various dangerous and unpredictable locations. Each key has unique properties and can activate different types of anomalies or hazardous environments. The exact nature of these gateways and their destinations varies, making SCP-004 highly unpredictable and dangerous. The keys have been linked to several incidents involving unexplained disappearances and breaches of containment.",
+        "containment_procedures": "SCP-004 must be stored in a high-security containment vault with reinforced walls and electronic locking mechanisms. Access to SCP-004 is restricted to Level 5 personnel only, and all handling of the keys must be conducted under strict security protocols. Each key must be individually secured in separate, tamper-proof containers within the vault. Surveillance and monitoring systems must be in place to detect any unauthorized access or tampering attempts. In the event of a breach or activation of SCP-004, immediate lockdown procedures and a response team are to be deployed to manage the situation and mitigate potential risks. All incidents involving SCP-004 must be thoroughly investigated to understand and address any new threats or anomalies.",
+        "image": "/Images/SCP-004.jpg"
+    },
+    {
+        "subject": "SCP-005",
+        "class": "Euclid",
+        "description": "SCP-005 is a large, seemingly ordinary key, made of an unknown metal, which can unlock any door, regardless of its lock type or mechanism. The key's anomalous property is that it can open any door it is used on, including those that are electronically or physically secured. Once the key is used, the door remains unlocked until it is manually relocked or secured by other means. SCP-005 does not affect doors that are inherently incapable of being opened, such as those that are completely solid or lack a conventional locking mechanism.",
+        "containment_procedures": "SCP-005 is to be stored in a secure containment locker at Site-XX. Access to SCP-005 is restricted to Level 3 personnel and higher, and its use is to be carefully monitored and logged. Any experimentation or use of SCP-005 must be approved by the Site Director or a designated supervisor. Unauthorized use or attempts to test SCP-005 outside of controlled environments are strictly prohibited. All instances of SCP-005 usage must be reported immediately, and any irregularities or security breaches associated with SCP-005 must be investigated thoroughly.",
+        "image": "/Images/SCP-005.jpg"
+    },
+    {
+        "subject": "SCP-006",
+        "class": "Safe",
+        "description": "SCP-006 is a small, clear bottle containing a liquid that appears to be ordinary water. However, SCP-006 possesses unique properties: any living organism that consumes the liquid will experience a significant and rapid improvement in health, including accelerated healing of injuries, enhancement of physical abilities, and rejuvenation of biological functions. SCP-006 does not cause any adverse effects or negative side effects in those who consume it. The liquid is not addictive and does not appear to alter the mental state or behavior of individuals.",
+        "containment_procedures": "SCP-006 is to be kept in a standard containment locker at Site-XX. Access to SCP-006 is limited to authorized personnel with Level 2 clearance or higher. Usage of SCP-006 for testing or research purposes must be approved by the Site Director or designated supervisor. All instances of SCP-006 usage are to be carefully documented, and any significant changes in SCP-006’s properties or effects must be reported immediately. Regular inspections of SCP-006’s containment are required to ensure the integrity of the bottle and the security of the liquid.",
+        "image": "/Images/SCP-006.webp"
+    }
+]

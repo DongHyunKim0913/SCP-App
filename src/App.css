@@ -1,0 +1,197 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0b0b0b;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ff4444;
+}
+
+/* Links */
+a {
+  color: #ff4444;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ff6666;
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Navigation */
+.nav-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  z-index: 800;
+  height: 60px; /* Ensures navbar has a fixed height */
+}
+
+nav h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+  transform: translateX(-100px); /* Moves left without breaking layout */
+  padding-bottom: 5px;
+}
+
+nav button {
+  background: none;
+  border: solid 2px;
+  border-radius: 5px;
+  color: #ff4444;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+nav button:hover {
+  color: #ff6666;
+  text-decoration: underline;
+}
+
+/* SCP Header */
+.scp-header {
+  margin-top: 80px; /* Adjust to match navbar height + some spacing */
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header-subtitle {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.scp-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ff4444;
+}
+
+.scp-header p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* SCP Card Container */
+.scp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* SCP Individual Card */
+.scp-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.scp-card:hover {
+  transform: scale(1.02);
+}
+
+.scp-card h2 {
+  color: #ff4444;
+  font-size: 1.5rem;
+}
+
+.scp-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* SCP Image */
+.scp-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin: 15px 0;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 850px) {
+  nav {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  nav ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .scp-card {
+      max-width: 90%;
+  }
+
+  nav h1 {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    padding-left: 100px;
+  }
+  
+}
