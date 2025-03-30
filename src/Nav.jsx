@@ -1,10 +1,10 @@
+// src/Components/Nav.jsx
 import React from 'react';
-import './App.css';
 
-const Nav = ({ scpList, onSelectSCP }) => {
+const Nav = ({ scpList, onSelectSCP, onGoToHomePage }) => {
   return (
     <nav className="nav-container">
-      <h1 className="nav-title">SCP Foundation</h1>
+      <h1 className="nav-title" onClick={onGoToHomePage}>SCP Foundation</h1> {/* Add onClick here */}
       <ul className="nav-links">
         {scpList.map((scp, index) => (
           <li key={index}>

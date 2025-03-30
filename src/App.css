@@ -60,7 +60,7 @@ nav h1 {
   font-size: 2rem;
   font-weight: bold;
   color: white;
-
+cursor: pointer;
 }
 
 nav ul {
@@ -194,4 +194,32 @@ nav button:hover {
     padding-left: 100px;
   }
   
+}
+
+.cover-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.cover-page h1 {
+  font-size: 3rem;
+}
+
+.cover-page p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.cover-page button {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cover-page button:hover {
+  background-color: #45a049;
 }

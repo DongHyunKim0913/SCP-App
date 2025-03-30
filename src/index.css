@@ -1,0 +1,96 @@
+/* General reset and global settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background: url('./assets/SCP Logo.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: linear-gradient(135deg, #2e8b57, #66cdaa); /* Gradient for more depth */
+  display: flex;
+  justify-content: flex-start; /* Push the content to the left */
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(58, 58, 58, 0.2); /* Add shadow to lift the header */
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 36px;
+  color: rgb(133, 77, 77);
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase; /* Gives a bolder, more professional look */
+  margin-right: 40px; /* Space between logo and navbar links */
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: rgb(88, 78, 78);
+  font-weight: 500;
+  margin-left: 30px;
+  padding: 8px 0;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions for color and scale */
+}
+
+.navbar a:hover {
+  color: #dcdcdc; /* Lighter hover color */
+  transform: scale(1.1); /* Slightly increase the size for hover effect */
+}
+
+/* Underline Animation */
+.navbar a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s ease; /* Smooth transition */
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+/* Make the navbar responsive */
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 5%;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .navbar a {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
